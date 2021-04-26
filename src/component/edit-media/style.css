@@ -1,0 +1,110 @@
+.main {
+  background-color: rgb(250, 250, 250);
+}
+.done-button {
+  color: #fe3c72;
+}
+.profile-image-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.image1 {
+  height: 140px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 7px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.pluse {
+  float: right;
+  color: #fe3c72;
+  position: relative;
+  left: 6px;
+  bottom: 6px;
+}
+
+.media-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fe3c72;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #fe3c72, rgb(245, 109, 109));
+  color: white;
+  height: 30px;
+}
+
+#toggler-off {
+  float: right;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fe3c72;
+}
+
+.about {
+  background-color: white;
+}
+
+.about-info {
+  color: rgb(133, 130, 130);
+}
+
+#comment {
+  border: none !important;
+}
+
+.passion {
+  color: rgb(128, 127, 127);
+  height: 55px;
+  width: auto;
+  position: relative;
+  top: 20px;
+}
+
+.passion-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  /* padding: 5px;
+  margin: 5px; */
+}
+.cat1 {
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(143, 142, 142);
+}
+
+.job-title {
+  position: relative;
+  top: 15px;
+  height: 45px;
+  width: auto;
+  color: rgb(110, 108, 108);
+}
+
+.add-job-title {
+  position: relative;
+  top: 10px;
+  color: rgb(129, 126, 126);
+  height: 50px;
+  width: auto;
+  background-color: white;
+}
+
+.company {
+  height: 50px;
+  width: auto;
+  position: relative;
+  color: rgb(117, 116, 116);
+}
+.add-company {
+  height: 50px;
+  width: auto;
+  background-color: white;
+  color: rgb(133, 131, 131);
+}

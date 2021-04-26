@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.setting-master {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 10px 2px rgba(241, 239, 239, 0.8);
+}
+
+.setting-master h4:nth-of-type(1) {
+  flex-grow: 5;
+}
+
+#done {
+  color: #fe3c72;
+}
+
+.setting-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  width: auto;
+  box-shadow: 1px 1px 10px 2px rgba(197, 194, 194, 0.8);
+  border-radius: 5px;
+  margin: 10px;
+  top: 5px;
+}
+
+.setting-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setting-logo-heading {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+#setting-logo-text {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 7px;
+}
+
+#setting-logo-gold {
+  border: 1px solid rgb(189, 166, 37);
+  background-color: rgb(179, 159, 47);
+  color: white;
+  font-size: 7px;
+}
+
+#setting-logo-plus {
+  color: red;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.setting-logo-lighting {
+  padding: 1px;
+  background-color: #faf9f9;
+  filter: drop-shadow(0 0 0.75rem rgb(150, 150, 150));
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.setting-logo-lighting-icon {
+  color: #fe3c72 !important;
+  font-size: xx-large;
+}
+
+.setting-card-last {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  width: auto;
+  box-shadow: 1px 1px 10px 2px rgba(197, 194, 194, 0.8);
+  border-radius: 5px;
+  margin: 10px;
+  top: 19px;
+}
+
+.main-heading {
+  position: relative;
+  top: 15px;
+  color: rgb(107, 104, 104);
+}
+
+#account-heading-extra {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#security {
+  background-color: rgb(233, 231, 231);
+  padding: 8px;
+  font-size: 14px;
+}
+
+#security-headings {
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+#security-legel {
+  padding: 10px;
+  background-color: rgb(224, 222, 222);
+}
+.share {
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(131, 128, 128);
+}
+
+#share-tinder {
+  font-weight: 600;
+  font-size: 17px;
+  background-color: white;
+}

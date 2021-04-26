@@ -1,0 +1,16 @@
+#clear {
+}
+
+#content-type {
+  color: rgb(133, 131, 131);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prompt {
+  height: 125px;
+  width: auto;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 2px rgba(241, 238, 238, 0.8);
+  margin: 10px;
+}

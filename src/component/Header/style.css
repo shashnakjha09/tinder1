@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  object-fit: contain;
+  height: 40px;
+}
+
+.header-icon .MuiIconButton-root {
+  padding: 10px;
+  filter: drop-shadow(0 0 0.75rem rgb(92, 91, 92));
+}
