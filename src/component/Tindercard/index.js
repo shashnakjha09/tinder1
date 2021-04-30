@@ -5,17 +5,35 @@ import axios from "axios";
 // import instance from "../../axios";
 
 function Tindercards() {
-    const [people , setpeople] = useState([ ]);
+    const [people , setpeople] = useState([
+        {
+            name:"jacma 59",
+            image : "https://c.ndtvimg.com/2018-09/d8r6nbfk_jack-ma-alibaba-afp_625x300_10_...",
+            desc : "totelly single , looking for some one , no string attached",
+        },
+        {
+            name : "jef bezos 54",
+            image : "https://i.ibb.co/2nbk6C3/jef.jpg",
+            desc : "totelly single , looking for some one , no string attached",
 
-    useEffect(() =>{
+        },
+        {
+            name : "elen 60",
+            image : "https://c.ndtvimg.com/2020-09/32eu5a2_ellen-degeneres_625x300_22_Septe...",
+            desc : "totelly single , looking for some one , no string attached",
+
+        }
+    ]);
+
+    // useEffect(() =>{
          
-        async function fetchData(){
-            const req = await axios.get('http://localhost:4000/users/');
-            setpeople(req.data);
-        } 
-        fetchData();
+    //     async function fetchData(){
+    //         const req = await axios.get('http://localhost:4000/users/');
+    //         setpeople(req.data);
+    //     } 
+    //     fetchData();
 
-    } , []);
+    // } , []);
     //  console.log(people);
 
 
@@ -40,10 +58,10 @@ function Tindercards() {
                 onCardLeftScreen={() => outOfFrame(person.name)}
                 >
                   <div 
-                   style={{backgroundImage: `url(${person.imgurl})` }} 
+                   style={{backgroundImage: `url(${person.image})` }} 
                   className="card"
                   >
-                      <h3>{person.name}</h3>
+                      <h3>{person.name}</h3>s
                       <h5>{person.desc}</h5>
                       </div>
                 </TinderCard>

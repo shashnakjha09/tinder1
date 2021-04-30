@@ -22,31 +22,39 @@ import {
 
 function Profileinfo() {
 
-    const [people , setpeople] = useState([ ]);
+    const [people , setpeople] = useState([
+        {
+            name:"elon musk 45",
+            image : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizVhS7c6SMY98gicmo0QzJvH9bWxQZio6_A&usqp=CAU",
+            desc : "totelly single , looking for some one , no string attached",
+        }
+    ]);
 
-    useEffect(() =>{
+    // useEffect(() =>{
          
-        async function fetchData(){
-            const req = await axios.get('http://localhost:4000/users/findone');
-            setpeople(req.data);
-        } 
-        fetchData();
+    //     async function fetchData(){
+    //         const req = await axios.get('http://localhost:4000/users/findone');
+    //         setpeople(req.data);
+    //     } 
+    //     fetchData();
 
-    } , []);
+    // } , []);
 
 
     return (
         <div>
         
+            {people.map((person) => (
             <Container className="img">
-            <Image src={people.imgurl} className="info-image" />
-            <h3 className="info-name">{people.name}
+            <Image src={person.image} className="info-image" />
+            <h3 className="info-name">{person.name}
             <IconButton>  
             
             <CheckCircleOutlineOutlinedIcon fontSize="large" className="text-success info-icon" />
             </IconButton>
             </h3>
             </Container>
+            ))}
         
             <Container className="flex-items">
               <Link to="profile-info/settings"><div className="setting" id="settings" >
